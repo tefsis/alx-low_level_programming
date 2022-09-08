@@ -1,0 +1,3 @@
+#!/bin/bash
+gcc -pile $CFILE - o cisfun
+
