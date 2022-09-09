@@ -11,7 +11,7 @@ int main(void)
  int i , j;
   for (i = 0; i <= 9; i++)
     {
-      for (j = i; j <= 9; j++)
+      for (j = i; j < 9; j++)
 	{
 	  if (j == i)
 	    continue;
