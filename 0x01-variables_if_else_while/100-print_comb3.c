@@ -14,7 +14,7 @@ for (i = 0; i <= 9; i++)
 {
 for (j = i; j <= 9; j++)
 {
-if (j != i)
+if (j == i)
 continue;
 putchar((i % 10) + '0');
 putchar((j % 10) + '0');
