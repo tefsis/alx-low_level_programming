@@ -13,20 +13,10 @@ int print_last_digit(int i)
       return (-i);
        
     }
-  if (i < 0)                                                                                                       
-    {                                                                                                              
-      return (-i);                                                                                                 
-         
-    }       
  else
     {
       return (i);
       
     }
-  else                                                                                                             
-    {                                                                                                              
-      return (i);                                                                                                  
-                                                                                                      
-    }             
-  return (0);
+return (0);
 }
