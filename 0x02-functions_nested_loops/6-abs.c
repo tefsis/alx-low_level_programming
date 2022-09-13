@@ -10,5 +10,5 @@ int _abs(int)
   if (i >= 0)
     return (i);
   else if (i < 0)
-    return (-i)
+    return (-i);
 }
