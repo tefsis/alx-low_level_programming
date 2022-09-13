@@ -1,13 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-#include main.h
+#include <main.h>
 /**
  *main - prints the various sizes of data
  *
  *Return: 0 if true
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 char chr;
 for (chr = 'a'; chr <= 'z'; chr++)
