@@ -4,8 +4,6 @@
  *print_sign - checks the sighn of a number
  *@n: number  being tested
  * Return: Always 1 if 'n' is positive.
- * Return: Always 0 if 'n' is zero.
- * Return: Always -1 if 'n' is negative.
  */
 int print_sign(int n)
 {
