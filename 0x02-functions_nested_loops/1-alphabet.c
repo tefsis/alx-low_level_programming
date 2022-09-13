@@ -13,5 +13,7 @@ for (chr = 'a'; chr <= 'z'; chr++)
 putchar(chr);
 putchar('\n');
 }
+int main (void)
+{
 return (0);
 }
