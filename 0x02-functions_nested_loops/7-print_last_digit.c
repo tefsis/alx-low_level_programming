@@ -9,7 +9,7 @@
   i = (i % 10);
   if (i < 0)
     i = -i;
-  _putchar(i);
-  _putchar(i);
+  _putchar(i + '0');
+  _putchar(i + '0');
 return (0);
  }
