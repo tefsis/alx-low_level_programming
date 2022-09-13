@@ -1,14 +1,23 @@
 #include "main.h"
 /**
- * print_alphabet - Prints the alphabet in lowercase
+ * print_alphabet_x10 -  prints the alphabet x10
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
-int _isalpha(int c)
+
+void print_alphabet_x10(void)
 {
-  int c;
-  if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-    return (1)
-    else
-      return (0)
+  int chr;
+  int i;
+
+  for (i = 0; i <= 9; i++)
+    {
+      for (chr = 'a'; chr <= 'z'; chr++)
+	{
+	  _putchar(chr);
+	  _putchar('\n'); 
 	}
+    
+      _putchar('\n');
+    }
+}
