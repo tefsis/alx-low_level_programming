@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+#include main.h
 /**
  *main - prints the various sizes of data
  *
@@ -14,6 +15,7 @@ putchar(chr);
 putchar('\n');
 }
 int main (void)
-{
-return (0);
+{char c;
+  print_alphabet (c)
+  return (0);
 }
