@@ -8,19 +8,20 @@
  */
 int main(void)
 {
-int i;
-int k;
-int i1 = 1;
-int i2 = 2;
-k = i1 + i2;
-printf("%d, %d, ", i1, i2);
-for (i = 3; i <= 50; ++i)
+unsigned long i;
+unsigned long i1 = 1;
+unsigned long i2 = 2;
+unsigned k;
+for (i = 0; i < 50; i++)
 {
-printf("%d, ", k);
+k = i1 + i2;
+printf("%lu", k);
 i1 = i2;
 i2 = k;
-k = i1 + i2;
-}
+if (i == 49)
 printf("\n");
+else
+printf(", ");
+}
 return (0);
 }
