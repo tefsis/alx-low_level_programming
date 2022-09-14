@@ -17,7 +17,7 @@ if ((i % 3 == 0) || (i % 5 == 0))
 k = k + i;
 }
 }
-printf("%d",k);
+printf("%d", k);
 printf("\n");
 return (0);
 }
