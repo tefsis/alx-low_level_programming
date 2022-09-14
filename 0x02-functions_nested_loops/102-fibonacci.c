@@ -13,7 +13,7 @@ int k;
 int i1 = 1;
 int i2 = 2;
 k = i1 + 12;
-printf("%d, %d, ", t1, t2);
+printf("%d, %d, ", i1, i2);
 for (i = 3; i <= n; ++i) {
 printf("%d, ", k);
 i1 = i2;
