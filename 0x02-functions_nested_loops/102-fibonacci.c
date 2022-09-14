@@ -12,7 +12,8 @@ unsigned long i;
 unsigned long i1 = 1;
 unsigned long i2 = 2;
 unsigned long k;
-for (i = 0; i < 50; i++)
+printf("%d, %d, ", i1, i2);
+for (i = 3; i <50; i++)
 {
 k = i1 + i2;
 printf("%lu", k);
