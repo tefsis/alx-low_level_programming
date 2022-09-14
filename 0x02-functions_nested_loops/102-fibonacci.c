@@ -11,7 +11,7 @@ int main(void)
 unsigned long i;
 unsigned long i1 = 1;
 unsigned long i2 = 2;
-unsigned k;
+unsigned long k;
 for (i = 0; i < 50; i++)
 {
 k = i1 + i2;
