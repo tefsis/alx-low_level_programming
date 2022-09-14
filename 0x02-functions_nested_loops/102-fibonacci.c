@@ -19,7 +19,7 @@ k = i1 + i2;
 printf("%lu", k);
 i1 = i2;
 i2 = k;
-if (i == 49)
+if (i == 50)
 printf("\n");
 else
 printf(", ");
