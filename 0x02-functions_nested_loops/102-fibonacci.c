@@ -21,5 +21,6 @@ i1 = i2;
 i2 = k;
 k = i1 + i2;
 }
+printf("\n");
 return (0);
 }
