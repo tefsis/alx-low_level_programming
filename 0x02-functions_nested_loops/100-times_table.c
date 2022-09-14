@@ -16,20 +16,10 @@ void print_times_table(int n)
     {
       for (j = 0; j < n; j++)
 	{
-	  k = i*j;
-	  if(k <= 9)
-	    {
-	      _putchar(k);
- _putchar(',');
-   _putchar(' '); 
-  	    }	    
-	  else {
-	    _putchar((k / 10) + '0');                                                                                
-          _putchar((k % 10) + '0');                                                                                
-          _putchar(',');                                                                                           
-          _putchar(' ');}
-	 	}
-    }_putchar('\n');
+	  printf("%dx%d = %d, ",j,i,i*j);
+	}
+        }
 
 }
+  printf("\n");
 }
