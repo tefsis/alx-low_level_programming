@@ -12,7 +12,7 @@ int i;
 int k;
 int i1 = 1;
 int i2 = 2;
-k = i1 + 12;
+k = i1 + i2;
 printf("%d, %d, ", i1, i2);
 for (i = 3; i <= 50; ++i) {
 printf("%d, ", k);
