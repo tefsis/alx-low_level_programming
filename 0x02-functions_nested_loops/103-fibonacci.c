@@ -1,29 +1,25 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+
 /**
- *main - prints the various sizes of data
+ * main - Prints the sum of even-valued Fibonacci sequence
+ *        terms not exceeding 4000000.
  *
- *Return: 0 if true
+ * Return: Always 0.
  */
 int main(void)
 {
-unsigned long i = 0;
-unsigned long i1 = 1;
-unsigned long i2 = 2;
-unsigned long k;
+unsigned long i1 = 0, i2 = 1, k;
+float l;
+while (1)
+{
 k = i1 + i2;
- while (k < 4000000)
-   {
-     if (k % 2 == 0)
-       {
-	 i = k + i;
-       }
-      i1 = i2;
-      i2 = k;
-       
-   }
- printf("%lu\n ", i);
-    
-  return (0);
+if (k > 4000000)
+break;
+if ((k % 2) == 0)
+l += k;
+i1 = i2;
+i2 = k;
+}
+printf("%.0f\n", l);
+return (0);
 }
