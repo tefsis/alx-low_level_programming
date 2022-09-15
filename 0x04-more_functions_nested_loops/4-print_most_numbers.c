@@ -2,7 +2,7 @@
 /**
  *print_most_numbers - prints number 0-9 exept 2 & 4 followed by newline
  */
-void print_most_numbers(void);
+void print_most_numbers(void)
 {
 int i;
 for (i = 0; i < 10; i++)
