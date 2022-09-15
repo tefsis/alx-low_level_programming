@@ -10,6 +10,6 @@ void print_diagonal(int n)
     _putchar(' ');
   putchar('\n');
   for (i = 0; i < n; i++)
-    _putchar('\');
+    _putchar('\\');
   _putchar('\n');
 }
