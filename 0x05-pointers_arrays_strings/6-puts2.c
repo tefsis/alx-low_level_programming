@@ -6,6 +6,7 @@
 void puts2(char *str)
 {
 int i;
+while (str[i] != '\.')
 for (i = 0; str[i]; i++)
 {
 _putchar(str[i]);
