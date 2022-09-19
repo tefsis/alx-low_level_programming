@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>  
+#include <string.h>  
 /**
 *print_rev - that prints a string reversed  folloewd by a newline
  *@str: string to be checked
