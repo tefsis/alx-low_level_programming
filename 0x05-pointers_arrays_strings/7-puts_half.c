@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *puts_half - prints half character of a string starting with the first character
+ *puts_half - prints half character of a string
  *@str: string to be checked
  */
 void puts_half(char *str)
@@ -13,15 +13,16 @@ i++;
 }
 if (i % 2 == 0)
 {
-for (j = i/2; j < i ; j++)
+for (j = i / 2; j < i ; j++)
 {
 _putchar(str[j]);
 }
 }
 else
 {
-for (j = i/2 + 1; j < i ; j++)                                                                                  {                                                                                                            
-_putchar(str[j]);
+for (j = i / 2 + 1; j < i ; j++)
+{
+_putchar[j]);
 }
 }
 _putchar('\n');
