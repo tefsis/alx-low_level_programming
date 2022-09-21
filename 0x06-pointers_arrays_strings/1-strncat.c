@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- *_strncat -  concatenates two strings 
+ *_strncat -  concatenates two strings
  *@src: string one
  *@dest: string two
- *@n: number of bytes 
+ *@n: number of bytes
+ *Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -13,7 +14,7 @@ while (dest[i] != '\0')
 {
 i++;
 }
-for (j = 0; j < n && src[j] != '\0'; j++,i++)
+for (j = 0; j < n && src[j] != '\0'; j++, i++)
 {
 dest[i] = src[j];
 }
