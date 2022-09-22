@@ -11,7 +11,7 @@ int i;
 int j = 0;
 for (j = 0; (s1[j] != '\0' || s2[j] != '\0'); j++)
 {
-i = s2[j] - s1[j];
+i = s1[j] - s2[j];
 }
 return (i);
 }
