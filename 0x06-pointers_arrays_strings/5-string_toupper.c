@@ -9,7 +9,7 @@ char *string_toupper(char *s)
 int j = 0;
 if (s[j] != '\0')
 {
-if (s[j] > 'a' && s[j] < 'z')
+if (s[j] >= 'a' && s[j] <= 'z')
 {
 s[j] += 32;
 }
