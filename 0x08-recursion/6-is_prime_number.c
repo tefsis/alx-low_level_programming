@@ -5,14 +5,14 @@
  * @i: factor to check if n is divisible.
  * Return: 1 if prime, 0 if not else recurse.
  */
-int primeFinder(int a, int i)
+int is_prime(int n, int i)
 {
-if (a <= 1 || a % i == 0)
+if (a <= 1 || n % i == 0)
 return (0);
-else if (a == i)
+else if (n == i)
 return (1);
-else if (a > i)
-primeFinder(a, i + 1);
+else if (n > i)
+primeFinder(n, i + 1);
 return (1);
 }
 
