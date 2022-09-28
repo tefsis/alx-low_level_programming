@@ -7,7 +7,7 @@
  */
 int is_prime(int n, int i)
 {
-if (a <= 1 || n % i == 0)
+if (n <= 1 || n % i == 0)
 return (0);
 else if (n == i)
 return (1);
