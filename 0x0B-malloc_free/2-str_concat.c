@@ -15,19 +15,25 @@
 char *str_concat(char *s1, char *s2)
 {
 char *concat;
-int i, k, l = 0;
+int i = 0, j = 0, k, l;
 if (s1 == NULL)
 s1 = "";
 if (s2 == NULL)
 s2 = "";
-for (i = 0; s1[i] || s2[i]; i++)
-k++;
-concat = malloc(sizeof(char) * k);
+while (s1[i]
+i++;
+while (s2[j]
+j++;
+k = i + j;
+concat = malloc(sizeof(char) * k + 1);
 if (concat == NULL)
 return (NULL);
-for (i = 0; s1[i]; i++)
-concat[l++] = s1[i];
-for (i = 0; s2[i]; i++)
-concat[l++] = s2[i];
+while (l < i)
+concat[l] = s1[l];
+l++;
+while (l <k)
+concat[l] = s2[j];
+l++;
+j++;
 return (concat);
 }
