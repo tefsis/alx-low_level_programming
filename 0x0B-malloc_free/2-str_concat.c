@@ -34,13 +34,11 @@ if (concat == NULL)
 return (NULL);
 for (i = 0; s1[i] != '\0'; i++)
 {
-concat[l] = s1[i];
-l++;
+concat[l++] = s1[i];
 }
 for (j = 0; s2[j] != '\0'; j++)
 {
-concat[l] = s2[j];
-l++;
+concat[l++] = s2[j];
 }
 return (concat);
 }
