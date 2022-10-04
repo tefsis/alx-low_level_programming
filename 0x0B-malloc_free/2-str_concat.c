@@ -34,7 +34,7 @@ if (concat == NULL)
 return (NULL);
 for (i = 0; s1[i] != '\0'; i++)
 {
-concat[i] = s1[i];
+concat[l] = s1[i];
 l++;
 }
 for (j = 0; s2[j] != '\0'; j++)
