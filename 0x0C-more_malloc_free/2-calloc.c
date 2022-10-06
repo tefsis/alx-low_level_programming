@@ -10,11 +10,11 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-char * array;
+char *array;
 unsigned int i;
 if (size == 0 || nmemb == 0)
 return (NULL);
- array = calloc(nmemb, size);
+array = calloc(nmemb, size);
 if (array == 0)
 return (NULL);
 for (i = 0; i < (size * nmemb); i++)
