@@ -17,7 +17,7 @@ n = max - min;
 array = malloc(sizeof(int) * (n + 1));
 if (array == NULL)
 return (NULL);
-for (i = 0; i < n; i++)
+for (i = 0; i <= n; i++)
 array[i] = min++;
 return (array);
 }
