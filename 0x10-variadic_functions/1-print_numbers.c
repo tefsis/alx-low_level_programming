@@ -18,7 +18,7 @@ return;
 va_start(tes, n);
 for (i = 0; i < n; i++)
 {
-printf ("%d", va_arg(tes, int));
+printf("%d", va_arg(tes, int));
 if (i < n - 1 && separator != NULL)
 {
 printf("%s", separator);
