@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdarg.h>
+#include <stddef.h>
 
 /**
  * print_strings - prints strings
