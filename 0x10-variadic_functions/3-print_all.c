@@ -11,14 +11,12 @@
  */
 unsigned int _strlen(const char * const format)
 {
-  unsigned int size = 0;
-
-  while (format[size])
-    {
-      size++;
-    }
-
-  return (size);
+unsigned int size = 0;
+while (format[size])
+{
+size++;
+}
+return (size);
 }
 
 /**
