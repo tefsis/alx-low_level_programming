@@ -20,11 +20,19 @@ return (NULL);
 }
 end->str = strdup(str);
 end->len = strlen(str);
+end->next = NULL;
 traverse = *head;
-while (traverse->next != NULL)
+if (*head == NULL)
+{
+*head = end;
+}
+else
+{
+while (traverse->next !=NULL)
 {
 traverse = traverse->next;
 }
 traverse->next = end;
+}
 return (end);
 }
