@@ -21,7 +21,7 @@ return (NULL);
 end->str = strdup(str);
 end->len = strlen(str);
 traverse = *head;
-while(traverse->next !=NULL)
+while (traverse->next != NULL)
 {
 traverse = traverse->next;
 }
