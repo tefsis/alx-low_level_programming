@@ -28,7 +28,7 @@ if (*head == NULL)
 }
 else
 {
-while (traverse->next !=NULL)
+while (traverse->next != NULL)
 {
 traverse = traverse->next;
 }
