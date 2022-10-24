@@ -13,5 +13,4 @@ cleaner = head;
 head = head->next;
 free(cleaner);
 }
-head = NULL;
 }
