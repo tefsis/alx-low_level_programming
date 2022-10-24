@@ -7,6 +7,7 @@
 int pop_listint(listint_t **head)
 {
 listint_t *to_be_deleted;
+int n;
 if (head == NULL)
 {
 return (0);
@@ -14,8 +15,9 @@ return (0);
 while ((*head) != NULL)
 {
 to_be_deleted = (*head);
+to_be_deleted->n = n;
 (*head) = (*head)->next;
 free(to_be_deleted);
 }
-return (0);
+return (n);
 }
