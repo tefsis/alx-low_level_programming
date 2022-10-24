@@ -7,14 +7,14 @@
 int pop_listint(listint_t **head)
 {
 listint_t *to_be_deleted;
-if (*head == NULL)
+if (head == NULL)
 {
 return (0);
 }
-while (*head != NULL)
+while ((*head) != NULL)
 {
-to_be_deleted = *head;
-*head = to_be_deleted->next;
+to_be_deleted = (*head);
+(*head) = to_be_deleted->next;
 free(to_be_deleted);
 }
 return (0);
