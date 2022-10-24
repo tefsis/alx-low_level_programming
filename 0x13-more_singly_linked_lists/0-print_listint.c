@@ -8,10 +8,11 @@
 size_t print_listint(const listint_t *h)
 {
 size_t i;
-for (i = 0; h != NULL; i++)
+listint_t *counter = h;
+for (i = 0; counter != NULL; i++)
 {
-printf("%u\n", h->n);
-h = h->next;
+printf("%d\n", counter->n);
+counter = counter->next;
 }
 return (i);
 }
