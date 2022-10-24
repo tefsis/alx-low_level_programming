@@ -20,5 +20,5 @@ return (NULL);
 first->next = *head;
 first->n = n;
 *head = first;
-return (*head);
+return (first);
 }
