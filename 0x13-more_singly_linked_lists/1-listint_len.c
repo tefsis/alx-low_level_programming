@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * listint_len -returns number of elements of a list_t list.
+ * listint_len -returns number of elements of a listint_t list.
  *
  * @h: points to the next node
  * Return: the number of nodes
