@@ -14,7 +14,7 @@ return (0);
 while ((*head) != NULL)
 {
 to_be_deleted = (*head);
-(*head) = to_be_deleted->next;
+(*head) = (*head)->next;
 free(to_be_deleted);
 }
 return (0);
