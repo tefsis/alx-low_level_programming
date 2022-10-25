@@ -2,7 +2,7 @@
 /**
  * insert_nodeint_at_index - adds a new node to a linked list
  *                           at a given position
-0;276;0c * @head : pointer to the head of the list
+ * @head : pointer to the head of the list
  * @idx  : index of the list where the new node will be added
  *         (indices start at 0)
  * @n    : value for the new node to be added
@@ -28,7 +28,7 @@ if (tmp == NULL || tmp->next == NULL)
 return (NULL);
 tmp = tmp->next;
 }
-new->n = n;
+
 new->next = tmp->next;
 tmp->next = new;
 return (new);
