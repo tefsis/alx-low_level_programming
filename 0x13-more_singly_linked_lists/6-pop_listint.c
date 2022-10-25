@@ -6,18 +6,13 @@
  */
 int pop_listint(listint_t **head)
 {
-listint_t *to_be_deleted;
+listint_t *temp;
 int n;
-if (head == NULL)
-{
+temp = *head;
+if (temp == NULL)
 return (0);
-to_be_deleted = (*head);
-}
-while ((*head) != NULL)
-{
-n = to_be_deleted->n;
-(*head) = to_be_deleted->next;
-free(to_be_deleted);
-}
+*head = temp->next;
+n = temp->n;
+free(temp);
 return (n);
 }
