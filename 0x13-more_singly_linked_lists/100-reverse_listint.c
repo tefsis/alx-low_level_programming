@@ -20,5 +20,5 @@ prev = (*head);
 (*head) = next;
 }
 (*head) = prev;
-return (*head);
+return ((*head));
 }
