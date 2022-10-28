@@ -17,6 +17,7 @@ if (i == index)
 {
 j = 1 << i;
 *n = (*n | j);
+return (1);
 }
 }
 return (-1);
